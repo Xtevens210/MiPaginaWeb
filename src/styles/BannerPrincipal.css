@@ -1,0 +1,83 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.banner__div--container{
+    /*posicion y layout*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/laptop-2620118_1280.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    color: rgba(255, 255, 255, 1);
+    /*misc*/
+}
+
+.banner__h2 {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One', cursive;
+
+    /*visual*/
+    /*misc*/
+
+}
+
+.banner__h2--bienvenido {
+    /*posicion y layout*/
+    position: relative;
+    top: 100px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 30px;
+    /*visual*/
+    /*misc*/
+}
+
+.banner__h2--steven {
+    /*posicion y layout*/
+    position: relative;
+    top: 120px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 28px;
+    /*visual*/
+    /*misc*/
+}
+
+
+.banner__h3 {
+    /*posicion y layout*/
+    position: relative;
+    top: 115px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One', cursive;
+    font-size: 17px;
+
+    /*visual*/
+    color: rgba(255, 255, 255, 1);
+
+    /*misc*/
+
+}
+
+.banner__img--image {
+    /*posicion y layout*/
+    position: relative;
+    top: 130px;
+    width: 130px;
+
+    /*modelo de caja*/
+    border-radius: 100%;
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}

@@ -1,0 +1,85 @@
+/*Pantallas pequeñas*/
+
+.titulo-de-pagina__div--container {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+
+    /*modelo de caja*/
+    background-color: rgb(255, 255, 255);
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.titulo-de-pagina__div--logo-nombre {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.titulo-de-pagina__img--imagen {
+    /*posicion y layout*/
+    width: 35px;
+
+    /*modelo de caja*/
+    border-radius: 100%;
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.titulo-de-pagina__h1--xtevens210 {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One', cursive;
+
+    /*visual*/
+    /*misc*/
+
+}
+
+@media screen and (min-width: 400px){
+    .titulo-de-pagina__img--imagen {
+        /*posicion y layout*/
+        width: 35px
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+
+
+@media screen and (min-width: 600px){
+    .titulo-de-pagina__img--imagen {
+        /*posicion y layout*/
+        width: 35px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
