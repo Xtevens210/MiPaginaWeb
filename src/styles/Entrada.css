@@ -1,0 +1,73 @@
+
+.entrada__div--container {
+    /*posicion y layout*/
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    text-align: center;
+    /*visual*/
+    background-image: linear-gradient(to left top, rgb(0, 0, 255, 1), rgb(0, 0, 0,1), rgb(0, 0, 0,1) );
+    /*misc*/
+    animation-name: salidaContainer;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+
+}
+
+.entrada__h2--xtevens210 {
+        /*posicion y layout*/
+        font-size: 50px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        font-family: 'Quicksand', sans-serif;
+        color: rgb(184, 184, 184);
+        /*misc*/
+        animation-name: salidaXtevens210;
+        animation-duration: 2s;
+        animation-delay: 5s;
+        animation-fill-mode: forwards;
+}
+
+.entrada__img--imagen {
+            /*posicion y layout*/
+            width: 150px;
+            /*modelo de caja*/
+            border-radius: 100%;
+            /*tipografia*/
+            /*visual*/
+            opacity: 0%;
+            /*misc*/
+            animation-name: aparicion, salidaLogo;
+            animation-duration: 2s, 2s;
+            animation-delay: 2.5s, 5s;
+            animation-fill-mode: forwards;
+}
+
+@keyframes aparicion {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+    }
+
+@keyframes salidaContainer {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+    }
+
+@keyframes salidaXtevens210 {
+    from {color: rgb(184, 184, 184);}
+    to {color: rgba(184, 184, 184, 0);}
+    }
+
+@keyframes salidaLogo {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+    }

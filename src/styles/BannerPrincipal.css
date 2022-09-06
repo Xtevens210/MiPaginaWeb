@@ -13,6 +13,7 @@
 
     /*modelo de caja*/
     /*tipografia*/
+    text-align: center;
     /*visual*/
     color: rgba(255, 255, 255, 1);
     /*misc*/
@@ -80,4 +81,162 @@
     /*tipografia*/
     /*visual*/
     /*misc*/
+}
+
+@media screen and (min-width: 400px){
+    .banner__h2--steven {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 30px;
+        /*visual*/
+        /*misc*/
+    }
+    
+    .banner__h3 {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 19px;
+    
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__img--image {
+        /*posicion y layout*/
+        width: 140px;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 600px){
+    .banner__h2--bienvenido {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 34px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h2--steven {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 32px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h3 {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 19px;
+    
+        /*visual*/
+        /*misc*/
+    
+    }
+
+    .banner__img--image {
+        /*posicion y layout*/
+        width: 150px;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+    
+}
+
+@media screen and (min-width: 767px){
+    .banner__h2--bienvenido {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 36px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h2--steven {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 34px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h3 {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 21px;
+    
+        /*visual*/
+        /*misc*/
+    
+    }
+
+    .banner__img--image {
+        /*posicion y layout*/
+        width: 155px;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 970px){
+    .banner__h2--bienvenido {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 39px;
+        letter-spacing: 1px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h2--steven {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 37px;
+        letter-spacing: 1px;
+        /*visual*/
+        /*misc*/
+    }
+
+    .banner__h3 {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 24px;
+        letter-spacing: 1px;
+    
+        /*visual*/
+        /*misc*/
+    
+    }
+
+    .banner__img--image {
+        /*posicion y layout*/
+        width: 155px;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
 }
