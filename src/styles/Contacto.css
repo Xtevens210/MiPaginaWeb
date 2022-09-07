@@ -4,37 +4,35 @@
 /*visual*/
 /*misc*/
 
-.educacion__div--container {
+.contacto__div--container {
     /*posicion y layout*/
     width: 100%;
-    height: 150px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
-    /* background-color: blue; */
     /*misc*/
-}
+    }
 
-.educacion__div--seccion-educacion {
+.contacto__div--seccion-contacto {
     /*posicion y layout*/
     width: 90%;
+
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
-    /* background-color: brown; */
     /*misc*/
 }
 
-.educacion__h2--educacion {
+.contacto__h2--contacto {
     /*posicion y layout*/
     /*modelo de caja*/
     /*tipografia*/
-    font-size: 24px;
-    font-family: 'Bakbak One', cursive;
+    font-family: 'Bakbak One';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -46,34 +44,31 @@
     /*misc*/
 }
 
-
-.educacion__ul--lista {
+.contacto__ul--lista {
     /*posicion y layout*/
     /*modelo de caja*/
     /*tipografia*/
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Baloo 2';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-
     /*visual*/
     /*misc*/
-
 }
 
 @media screen and (min-width: 600px) {
-    .educacion__h2--educacion {
+    .contacto__h2--contacto {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
         font-size: 26px;
-
+    
         /*visual*/
         /*misc*/
     }
 
-    .educacion__ul--lista {
+    .contacto__ul--lista {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
@@ -85,17 +80,17 @@
 }
 
 @media screen and (min-width: 767px) {
-    .educacion__h2--educacion {
+    .contacto__h2--contacto {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
         font-size: 28px;
-
+    
         /*visual*/
         /*misc*/
     }
 
-    .educacion__ul--lista {
+    .contacto__ul--lista {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
@@ -106,19 +101,18 @@
     }
 }
 
-
 @media screen and (min-width: 970px) {
-    .educacion__h2--educacion {
+    .contacto__h2--contacto {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
         font-size: 30px;
-
+    
         /*visual*/
         /*misc*/
     }
 
-    .educacion__ul--lista {
+    .contacto__ul--lista {
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
@@ -129,9 +123,9 @@
     }
 }
 
-
-@media screen and (min-width: 1280px) {
-    .educacion__div--seccion-educacion {
+@media screen and (min-width: 1280px){
+    .contacto__div--seccion-contacto {
+        /*posicion y layout*/
         /*posicion y layout*/
         width: 70%;
         /*modelo de caja*/
