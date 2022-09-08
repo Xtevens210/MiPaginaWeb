@@ -7,6 +7,7 @@ import Contacto from './Contacto';
 import ContactoWhatsApp from './ContactoWhatsApp';
 import Educacion from './Educacion';
 import Habilidades from './Habilidades';
+import Tecnologias from './Tecnologias/Tecnologias';
 import TituloPagina from './TituloPagina';
 
 export default function Aplicacion() {
@@ -33,6 +34,9 @@ export default function Aplicacion() {
             </article>
             <article>
                 <ContactoWhatsApp/>
+            </article>
+            <article>
+                <Tecnologias/>
             </article>
         </section>
     </>

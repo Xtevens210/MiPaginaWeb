@@ -75,6 +75,7 @@
     text-align: center;
     /*modelo de caja*/
     border-radius: 12px;
+    padding: 0 15px 0 15px;
     /*tipografia*/
     font-family: 'Baloo 2', cursive;
     font-style: normal;
@@ -96,4 +97,130 @@
     /*tipografia*/
     /*visual*/
     /*misc*/
+}
+
+.contacto-wh__img--imagen-whatsapp {
+        /*posicion y layout*/
+        padding: 50px;
+        width: 100px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+}
+
+
+@media screen and (min-width: 600px) {
+    .contacto-wh__h3 {
+                /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 18px;
+
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .contacto-wh__h3 {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 22px;
+
+    /*visual*/
+    /*misc*/
+}
+}
+
+@media screen and (min-width: 970px) {
+    .contacto-wh__h3 {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 23px;
+    
+        /*visual*/
+        /*misc*/
+    }
+
+    .contacto-wh__div--seccion-wh {
+        /*posicion y layout*/
+        width: 90%;
+        flex-direction: row;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .contacto-wh__div--qr {
+        /*posicion y layout*/
+        width: 90%;
+        height: 400px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /* background-color: blue; */
+    
+        /*misc*/
+    }
+    
+    
+    .contacto-wh__div--logowp {
+        /*posicion y layout*/
+        width: 90%;
+        height: 400px;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /* background-color: rgb(255, 0, 128); */
+    
+        /*misc*/
+    }
+
+    .contacto-wh__h3 {
+                /*posicion y layout*/
+                /*modelo de caja*/
+                margin: 0 10px 0 10px;
+                /*tipografia*/
+                /*visual*/
+                /*misc*/
+    }
+
+    .contacto-wh__h3--o-presiona {
+                /*posicion y layout*/
+                position: relative;
+                /* top: -35px; */
+                /*modelo de caja*/
+                /*tipografia*/
+                /*visual*/
+                /*misc*/
+    }
+
+    .contacto-wh__img--imagen-whatsapp {
+        /*posicion y layout*/
+        padding-top: 0px;
+        padding: 50px;
+        width: 100px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .contacto-wh__h3 {
+        /*posicion y layout*/
+        width: 70%;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
 }

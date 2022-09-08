@@ -1,0 +1,61 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.icono__div--container {
+    /*posicion y layout*/
+    width: 80px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.icono__div--borde-icono {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /*modelo de caja*/
+    border-radius: 6px;
+
+    /*tipografia*/
+    /*visual*/
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: rgb(240, 240, 240);
+    /*misc*/
+}
+
+.icono__img {
+    /*posicion y layout*/
+    width: 75%;
+    padding-top: 6px;
+
+    /*modelo de caja*/
+    border-radius: 6px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.icono__h3 {
+    /*posicion y layout*/
+
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    /*visual*/
+    /*misc*/
+}
