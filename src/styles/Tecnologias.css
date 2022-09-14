@@ -31,7 +31,7 @@
 }
 
 .tecnologias__h2--tecnologias{
-        /*posicion y layout*/
+    /*posicion y layout*/
     /*modelo de caja*/
     /*tipografia*/
     font-size: 24px;
@@ -63,5 +63,108 @@
     /*misc*/
 }
 
+@media screen and (min-width: 500px) {
+    .tecnologias__div--grid-iconos{
+        /*posicion y layout*/
+        grid-template-columns: auto auto auto auto auto;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
 
+@media screen and (min-width: 600px) {
+    .tecnologias__div--grid-iconos{
+        /*posicion y layout*/
+        grid-template-columns: auto auto auto auto auto;
+        column-gap: 20px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .tecnologias__h2--tecnologias{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 26px;
+
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .tecnologias__div--grid-iconos{
+        /*posicion y layout*/
+        grid-template-columns: auto auto auto auto auto auto;
+        column-gap: 20px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .tecnologias__h2--tecnologias{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 28px;
+
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .tecnologias__div--grid-iconos{
+        /*posicion y layout*/
+        grid-template-columns: auto auto auto auto auto auto auto;
+        column-gap: 25px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .tecnologias__h2--tecnologias{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 30px;
+
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .tecnologias__div--grid-iconos{
+        /*posicion y layout*/
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        column-gap: 25px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .tecnologias__div--seccion-iconos {
+        /*posicion y layout*/
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
 

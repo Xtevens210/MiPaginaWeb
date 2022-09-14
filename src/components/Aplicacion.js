@@ -7,14 +7,16 @@ import Contacto from './Contacto';
 import ContactoWhatsApp from './ContactoWhatsApp';
 import Educacion from './Educacion';
 import Habilidades from './Habilidades';
+import NavBar from './NavBar/NavBar';
+import Servicios from './Servicios';
 import Tecnologias from './Tecnologias/Tecnologias';
-import TituloPagina from './TituloPagina';
+
 
 export default function Aplicacion() {
     return (
     <>
         <header>
-            <TituloPagina/>
+            <NavBar/>
         </header>
         <section>
             <article>
@@ -37,6 +39,9 @@ export default function Aplicacion() {
             </article>
             <article>
                 <Tecnologias/>
+            </article>
+            <article>
+                <Servicios/>
             </article>
         </section>
     </>

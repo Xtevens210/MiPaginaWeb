@@ -1,0 +1,185 @@
+
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+
+
+.servicios__div--container {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 310px;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.servicios__div--seccion-servicios {
+        /*posicion y layout*/
+        width: 90%;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /* background-color: rgba(136, 255, 0, 0.658); */
+        /*misc*/
+}
+
+.servicios__h2--servicios{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    /*visual*/
+    color: #494949;
+
+    /*misc*/
+
+}
+
+.servicios__ul--lista-servicios {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    /*visual*/
+    /*misc*/
+}
+
+.servicios__div--seccion-servicios p {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Baloo 2', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    /*visual*/
+    /*misc*/
+}
+
+@media screen and (min-width: 600px) {
+    .servicios__h2--servicios{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 26px;
+    
+        /*misc*/
+    
+    }
+
+
+.servicios__ul--lista-servicios {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 20px;
+
+    /*visual*/
+    /*misc*/
+}
+
+.servicios__div--seccion-servicios p {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 20px;
+
+    /*visual*/
+    /*misc*/
+}
+}
+
+@media screen and (min-width: 767px) {
+    .servicios__h2--servicios{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 28px;
+    
+        /*misc*/
+    
+    }
+
+
+.servicios__ul--lista-servicios {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 22px;
+
+    /*visual*/
+    /*misc*/
+}
+
+.servicios__div--seccion-servicios p {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 22px;
+
+    /*visual*/
+    /*misc*/
+}
+}
+
+@media screen and (min-width: 970px) {
+    .servicios__h2--servicios{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 30px;
+    
+        /*misc*/
+    
+    }
+
+
+.servicios__ul--lista-servicios {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 23px;
+
+    /*visual*/
+    /*misc*/
+}
+
+.servicios__div--seccion-servicios p {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 23px;
+
+    /*visual*/
+    /*misc*/
+}
+}
+@media screen and (min-width: 1280px) {
+    .servicios__div--seccion-servicios  {
+    /*posicion y layout*/
+    width: 70%;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+}

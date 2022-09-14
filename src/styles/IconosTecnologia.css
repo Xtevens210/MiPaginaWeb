@@ -59,3 +59,53 @@
     /*visual*/
     /*misc*/
 }
+
+@media screen and (min-width: 767px) {
+    .icono__div--container {
+        /*posicion y layout*/
+        width: 85px;
+        height: 95px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .icono__h3 {
+        /*posicion y layout*/
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 15px;
+
+
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .icono__div--container {
+        /*posicion y layout*/
+        width: 90px;
+        height: 100px;
+
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .icono__h3 {
+        /*posicion y layout*/
+    
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 17px;
+
+
+        /*visual*/
+        /*misc*/
+    }
+}
