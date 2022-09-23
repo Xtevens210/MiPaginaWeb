@@ -3,7 +3,7 @@ import '../styles/Educacion.css';
 
 export default function Educacion() {
     return (
-        <div className="educacion__div--container">
+        <div id='educacion' className="educacion__div--container">
             <div className="educacion__div--seccion-educacion">
                 <h2 className="educacion__h2--educacion">Educación</h2>
                 <ul className="educacion__ul--lista">

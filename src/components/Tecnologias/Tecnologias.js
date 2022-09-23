@@ -15,7 +15,7 @@ import python from '../../public/images/python-icono.png';
 
 export default function Tecnologias() {
     return (
-        <div className="tecnologias__div--container">
+        <div id='tecnologias' className="tecnologias__div--container">
             <div className="tecnologias__div--seccion-iconos">
                 <h2 className="tecnologias__h2--tecnologias">Tecnologias</h2>
                 <div className="tecnologias__div--grid-iconos">

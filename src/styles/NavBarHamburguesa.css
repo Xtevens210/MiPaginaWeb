@@ -1,0 +1,101 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.hamburguesa__div--container {
+    /*posicion y layout*/
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+
+    /*modelo de caja*/
+    /*tipografia*/
+    text-align: center;
+    /*visual*/
+    background-color: rgb(255, 255, 255);
+
+    /*misc*/
+}
+
+.hamburguesa__div--boton {
+    /*posicion y layout*/
+    position: absolute;
+    float: left ;
+    margin-left: 10px;
+    z-index: 1000;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /* background-color: red; */
+    /*misc*/
+
+}
+
+.hamburguesa__div--logo {
+    /*posicion y layout*/
+    display: inline-block;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 56px;
+
+    /*visual*/
+    /* background-color: blueviolet; */
+
+    /*misc*/
+}
+
+.hamburguesa__div--logo img{
+    /*posicion y layout*/
+    width: 30px;
+
+    /*modelo de caja*/
+    border-radius: 100%;
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.hamburguesa__img--hamburguesa {
+    /*posicion y layout*/
+    width: 40px;
+
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+
+}
+
+.hamburguesa__div--lista {
+    /*posicion y layout*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+
+}
+
+

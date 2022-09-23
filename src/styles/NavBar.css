@@ -5,3 +5,29 @@
 /*misc*/
 
 
+.nav-bar__div--container {
+    /*posicion y layout*/
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    opacity: 0%;
+    /* background-color: brown; */
+
+    /*misc*/
+    animation-name: aparicion;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes aparicion {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+    }

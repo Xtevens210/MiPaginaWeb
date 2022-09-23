@@ -12,6 +12,12 @@ export default function NavBar() {
 
   //Estado useEfect que recoge el tamaño de la pantalla y lo almacena para trabajar con el.
   useEffect(() => {
+
+    if(getWindowSize().innerWidth > 600){
+      setPantallaChica(false);
+    }else if( getWindowSize().innerWidth <= 600){
+      setPantallaChica(true);
+    }
     function handleWindowResize() {
       setWindowSize(getWindowSize());
       //Cada vez que el escuchador se ejecuta el va a ejecutar esta funcion lo que hace es cuando obtiene el tamaño de la pantalla el ejecuta el if que comprueba su tamaño y lo que ahra es mostrar una barra de navegacion con opciones clasicas para pantallas grande y mostrara una barra de navegacion tipo menu hamburguesa cuando este pequeña la pantalla.
@@ -39,7 +45,6 @@ export default function NavBar() {
   return (
     <div className="nav-bar__div--container">
       {pantallaChica ? (<NavBarHamburguesa/>):(<NavBarConvencional/>)}
-      <div>{windowSize.innerWidth}</div>
     </div>
   )
 }

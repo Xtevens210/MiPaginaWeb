@@ -3,7 +3,7 @@ import '../styles/Servicios.css';
 
 export default function Servicios() {
     return (
-        <div className="servicios__div--container">
+        <div id='servicios' className="servicios__div--container">
             <div className="servicios__div--seccion-servicios">
                 <h2 className="servicios__h2--servicios">Servicios</h2>
                 <ul className="servicios__ul--lista-servicios">

@@ -3,7 +3,7 @@ import '../styles/Habilidades.css';
 
 export default function Habilidades() {
     return (
-    <div className="habilidades__div--container">
+    <div id='habilidades' className="habilidades__div--container">
         <div className="habilidades__div--seccion-habilidades">
             <h2 className="habilidades__h2--habilidades">Habilidades</h2>
             <ul className="habilidades__ul--lista">
