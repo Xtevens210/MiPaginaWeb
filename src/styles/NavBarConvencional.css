@@ -1,0 +1,104 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.nav-bar-convencional__div--container {
+    /*posicion y layout*/
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: rgb(255, 255, 255);
+    /*misc*/
+}
+
+.nav-bar-convencional__div--logo-letrero {
+    /*posicion y layout*/
+    float: right;
+
+    /*modelo de caja*/
+    margin-right: 20px;
+
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 56px;
+
+    /*visual*/
+    /* background-color: blueviolet; */
+
+    /*misc*/
+}
+
+.nav-bar-convencional__div--logo-letrero img{
+    /*posicion y layout*/
+    position: relative;
+    top: 4px;
+    width: 30px;
+
+    /*modelo de caja*/
+    border-radius: 100%;
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.nav-bar-convencional__div--accesos {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: space-around;
+
+    /*modelo de caja*/
+    margin-left: 20px;
+
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+
+}
+
+.nav-bar-convencional__div--accesos a {
+    /*posicion y layout*/
+
+    /*modelo de caja*/
+    margin: 0px 10px 0px 10px;
+    padding:5px 10px 5px 10px;
+
+
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(73, 73, 73, 1);
+
+    /*visual*/
+    border-radius: 7px;
+    /* background-color: coral; */
+    text-decoration: none;
+    border: 1px solid rgba(73, 73, 73, 1);
+
+    /*misc*/
+
+}
+
+.nav-bar-convencional__div--accesos a:hover {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color:  #EEEEEE;
+    /*misc*/
+
+}

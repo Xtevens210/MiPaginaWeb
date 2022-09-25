@@ -11,6 +11,7 @@ import logo from '../../public/images/Logo portafolio CV.jpg';
 //Componentes
 import ListaOpcionesHamburguesa from './ListaOpcionesHamburguesa';
 
+
 export default function NavBarHamburguesa() {
   const [ botonHamburguesa, setBotonHamburguesa ] = useState(true);
 
