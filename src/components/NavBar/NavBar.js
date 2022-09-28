@@ -7,7 +7,6 @@ import NavBarHamburguesa from './NavBarHamburguesa';
 
 
 export default function NavBar() {
-  const [ windowSize, setWindowSize ] = useState(getWindowSize());
   const [ pantallaChica, setPantallaChica ] = useState(false);
 
   //Estado useEfect que recoge el tamaño de la pantalla y lo almacena para trabajar con el.
