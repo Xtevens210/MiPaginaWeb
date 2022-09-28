@@ -18,7 +18,6 @@ export default function NavBar() {
       setPantallaChica(true);
     }
     function handleWindowResize() {
-      setWindowSize(getWindowSize());
       //Cada vez que el escuchador se ejecuta el va a ejecutar esta funcion lo que hace es cuando obtiene el tamaño de la pantalla el ejecuta el if que comprueba su tamaño y lo que ahra es mostrar una barra de navegacion con opciones clasicas para pantallas grande y mostrara una barra de navegacion tipo menu hamburguesa cuando este pequeña la pantalla.
       if(getWindowSize().innerWidth > 980){
         setPantallaChica(false);
