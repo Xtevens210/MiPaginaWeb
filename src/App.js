@@ -1,25 +1,22 @@
-import React,{ useState } from 'react';
-
-//styles
-import './styles/App.css';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
 
 //Componentes
-import Entrada from './components/Entrada';
-import Aplicacion from './components/Aplicacion';
-
+import Index from "./pages/IndexApp";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
-  const [ entrada, setEntrada ] = useState(true);
-
-  setTimeout(() => {
-    setEntrada(false);
-  }, 4800);
-
   return (
-    <div className="App">
-      {entrada ? (""):(<Aplicacion/>)}
-      <Entrada/>
-    </div>
+    <BrowserRouter>
+    <header>
+      <NavBar/>
+    </header>
+      <Routes>
+        <Route path="/" element={<Index/>}/>
+        <Route path="*" element={<NotFoundPage/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

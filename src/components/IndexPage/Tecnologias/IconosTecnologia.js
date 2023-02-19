@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/IconosTecnologia.css';
+import '../../../styles/IconosTecnologia.css';
 
 export default function IconosTecnologia(props) {
     return (

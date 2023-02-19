@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Educacion.css';
+import '../../styles/Educacion.css';
 
 export default function Educacion() {
     return (

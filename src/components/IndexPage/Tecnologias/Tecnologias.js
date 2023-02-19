@@ -1,17 +1,17 @@
 import React from 'react';
 import IconosTecnologia from './IconosTecnologia';
-import '../../styles/Tecnologias.css';
+import '../../../styles/Tecnologias.css';
 
 //Imagenes
-import javascript from '../../public/images/javascript-icono.png';
-import html from '../../public/images/html-icono.png';
-import css from '../../public/images/css-icono.png';
-import react from '../../public/images/react-icono.png';
-import figma from '../../public/images/figma-icono.png';
-import gitHub from '../../public/images/github-icono.png';
-import bootstrap from '../../public/images/bootstrap-icono.png';
-import mongo from '../../public/images/mongo-icono.png';
-import python from '../../public/images/python-icono.png';
+import javascript from '../../../public/images/javascript-icono.png';
+import html from '../../../public/images/html-icono.png';
+import css from '../../../public/images/css-icono.png';
+import react from '../../../public/images/react-icono.png';
+import figma from '../../../public/images/figma-icono.png';
+import gitHub from '../../../public/images/github-icono.png';
+import bootstrap from '../../../public/images/bootstrap-icono.png';
+import mongo from '../../../public/images/mongo-icono.png';
+import python from '../../../public/images/python-icono.png';
 
 export default function Tecnologias() {
     return (

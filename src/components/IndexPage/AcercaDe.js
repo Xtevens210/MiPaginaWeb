@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/AcercaDe.css';
+import '../../styles/AcercaDe.css';
 
 export default function AcercaDe() {
     return (

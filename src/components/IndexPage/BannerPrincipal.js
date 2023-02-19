@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../public/images/Logo portafolio CV.jpg';
-import '../styles/BannerPrincipal.css';
+import logo from '../../public/images/Logo portafolio CV.jpg';
+import '../../styles/BannerPrincipal.css';
 
 export default function BannerPrincipal() {
     return (

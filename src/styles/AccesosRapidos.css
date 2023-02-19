@@ -1,0 +1,40 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.acc-rapido__div--container {
+    /*posicion y layout*/
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    top: 70px;
+    /*modelo de caja*/
+    overflow-x: scroll;
+    /*tipografia*/
+    /*visual*/
+    background-color: blue;
+    color: aliceblue;
+    /*misc*/
+}
+
+.acc-rapido__div--container-links {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: space-around;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.acc-rapido__div--container-links a {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    margin-left: 10px;
+    margin-right: 10px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}

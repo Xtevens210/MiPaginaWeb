@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/ContactoWhatsApp.css';
+import '../../styles/ContactoWhatsApp.css';
 
-import QR from '../public/images/codigo QR whatsapp.png';
-import whatsapp from '../public/images/whatsapp.png';
+import QR from '../../public/images/codigo QR whatsapp.png';
+import whatsapp from '../../public/images/whatsapp.png';
 
 export default function ContactoWhatsApp() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Habilidades.css';
+import '../../styles/Habilidades.css';
 
 export default function Habilidades() {
     return (
