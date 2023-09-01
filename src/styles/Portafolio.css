@@ -1,0 +1,228 @@
+
+
+.portafolio__div--container {
+    /*posicion y layout*/
+    width: 100%;
+    height: 1500px;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #202020;
+    /*misc*/
+}
+
+.portafolio__div--redes {
+    /*posicion y layout*/
+    position: relative;
+    top: 75px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.portafolio__div--linea-adorno {
+    /*posicion y layout*/
+    width: 90%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #0FF;
+    /*misc*/
+}
+
+.portafolio__div--redes-iconos {
+    /*posicion y layout*/
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #202020;
+    /*misc*/
+}
+
+.portafolio__div--redes-iconos img {
+    /*posicion y layout*/
+    width: 25px;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.portafolio__div--presentacion {
+    /*posicion y layout*/
+    position: relative;
+    width: 90%;
+    top: 120px;
+    /*modelo de caja*/
+    margin: auto;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.portafolio__h4--hola-mi-nombre {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Julius Sans One', sans-serif;
+    /*visual*/
+    color: #0FF;
+    /*misc*/
+}
+
+.portafolio__p--steven-sanchez {
+    /*posicion y layout*/
+    position: relative;
+    top: -25px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Kanit', sans-serif;
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}
+
+.portafolio__p--desarrollador-web-full-stack {
+    /*posicion y layout*/
+    position: relative;
+    top: -53px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'Kanit', sans-serif;
+    /*visual*/
+    color: #8F8F8F;
+    /*misc*/
+}
+
+.portafolio__p--descripcion {
+    /*posicion y layout*/
+    position: relative;
+    top: -70px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-size: 13px;
+    font-family: 'Kanit', sans-serif;
+    /*visual*/
+    color: #868686;
+    /*misc*/
+}
+
+
+.portafolio__div--portafolio-container {
+    /*posicion y layout*/
+    width: 90%;
+    position: relative;
+    top: 150px;
+    /*modelo de caja*/
+    margin: auto;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.portafolio__h4--portafolio {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    /*visual*/
+    color: #868686;
+    /*misc*/
+}
+
+
+.portafolio__div--tarjetas-portafolio {
+    /*posicion y layout*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /*modelo de caja*/
+    margin: auto;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+@media screen and (min-width: 600px) {
+    .portafolio__div--container {
+        /*posicion y layout*/
+        height: 1800px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .portafolio__div--presentacion {
+        /*posicion y layout*/
+        width: 500px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .portafolio__div--container {
+        /*posicion y layout*/
+        height: 2500px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .portafolio__div--presentacion {
+        /*posicion y layout*/
+        width: 700px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+
+    .portafolio__div--tarjetas-portafolio {
+        /*posicion y layout*/
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        /*modelo de caja*/
+        border-radius: 40px;
+        padding: 20px;
+        /*tipografia*/
+        /*visual*/
+        background-color: rgb(38, 38, 38);
+        /*misc*/
+    }
+}

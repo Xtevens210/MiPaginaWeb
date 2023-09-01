@@ -17,7 +17,6 @@
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
-
     /*misc*/
 }
 
@@ -42,7 +41,7 @@
         line-height: 34px;
 
         /*visual*/
-        color: #494949;
+        color: #D7D7D7;
 
         /*misc*/
 }
@@ -58,8 +57,8 @@
     line-height: 24px;
 
     /*visual*/
+    color: #8F8F8F;
     /*misc*/
-    
 }
 
 @media screen and (min-width: 600px) {
@@ -125,8 +124,7 @@
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
-        font-size: 23px;
-
+        font-size: 20px;
         /*visual*/
         /*misc*/
 }
@@ -135,7 +133,7 @@
 @media screen and (min-width: 1280px) {
     .habilidades__div--seccion-habilidades {
         /*posicion y layout*/
-        width: 70%;
+        width: 60%;
         /*modelo de caja*/
         /*tipografia*/
         /*visual*/

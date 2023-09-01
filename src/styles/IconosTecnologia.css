@@ -29,8 +29,9 @@
 
     /*tipografia*/
     /*visual*/
+    border: 1px solid #0FF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: rgb(240, 240, 240);
+    background-color: #323232;
     /*misc*/
 }
 
@@ -56,6 +57,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
+    color: #D7D7D7;
     /*visual*/
     /*misc*/
 }

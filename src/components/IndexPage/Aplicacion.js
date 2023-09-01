@@ -9,15 +9,13 @@ import Educacion from "./Educacion";
 import Habilidades from "./Habilidades";
 import Servicios from "./Servicios";
 import Tecnologias from "./Tecnologias/Tecnologias";
-import AccesosRapidos from "./AccesosRapidos";
+import Clientes from "./Clientes";
+import Footer from "./Footer";
 
 
 export default function Aplicacion() {
   return (
     <>
-      <header>
-        <AccesosRapidos/>
-      </header>
       <section>
         <article>
           <BannerPrincipal />
@@ -42,6 +40,12 @@ export default function Aplicacion() {
         </article>
         <article>
           <Servicios />
+        </article>
+        <article>
+          <Clientes />
+        </article>
+        <article>
+          <Footer />
         </article>
       </section>
     </>

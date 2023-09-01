@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 //styles
 import "../styles/App.css";
@@ -6,12 +6,16 @@ import "../styles/App.css";
 //Componentes
 import Aplicacion from "../components/IndexPage/Aplicacion";
 
-function IndexApp() {
-  const [entrada, setEntrada] = useState(true);
+function IndexApp(props) {
 
-  setTimeout(() => {
-    setEntrada(false);
-  }, 4700);
+  const { entrada, setEntrada } = props;
+
+  if(entrada){
+    setTimeout(() => {
+      setEntrada(false);
+    }, 4700);
+  }
+
 
   return <div className="App">{entrada ? "" : <Aplicacion />}</div>;
 }

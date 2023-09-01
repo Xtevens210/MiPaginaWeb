@@ -1,0 +1,226 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+
+.footer__div--container {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    border-top: solid 2px #0FF;
+    /*tipografia*/
+    /*visual*/
+    background-color: black;
+    /*misc*/
+}
+
+.footer__div--informacion {
+    /*posicion y layout*/
+    display: flex;
+    flex-direction: column;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--logo {
+    /*posicion y layout*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--logo img {
+    /*posicion y layout*/
+    width: 200px;
+    /*modelo de caja*/
+    border-radius: 100%;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--logo p {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}
+
+.footer__div--datos {
+    /*posicion y layout*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--paquete-dato {
+    /*posicion y layout*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--datos img{
+    /*posicion y layout*/
+    width: 50px;
+    /*modelo de caja*/
+    margin-right: 20px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.footer__div--datos p{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}
+
+
+.footer__div--comunicacion {
+    /*posicion y layout*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+
+.footer__div--comunicacion p{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34px;
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}
+
+.footer__div--comunicacion a{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    border-radius: 100%;
+    border: none;
+    /*visual*/
+    background-color: transparent;
+    /*misc*/
+    cursor: pointer;
+}
+
+
+.footer__div--comunicacion a img{
+    /*posicion y layout*/
+    width: 100px;
+    /*modelo de caja*/
+    margin-bottom: 50px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+
+@media screen and (min-width: 976px) {
+    .footer__div--informacion {
+        /*posicion y layout*/
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .footer__div--logo img {
+        /*posicion y layout*/
+        width: 100px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .footer__div--datos img{
+        /*posicion y layout*/
+        width: 35px;
+        /*modelo de caja*/
+        margin-right: 20px;
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .footer__div--datos p{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 34px;
+        /*visual*/
+        color: #D7D7D7;
+        /*misc*/
+    }
+
+    .footer__div--comunicacion {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        margin-bottom: 90px;
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .footer__div--comunicacion a img{
+        /*posicion y layout*/
+        width: 50px;
+        /*modelo de caja*/
+        margin-bottom: 0px;
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}

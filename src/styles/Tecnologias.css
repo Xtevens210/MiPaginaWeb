@@ -41,7 +41,7 @@
     font-size: 24px;
     line-height: 34px;
     /*visual*/
-    color: rgb(73, 73, 73);
+    color: #D7D7D7;
     
     /*misc*/
 }
@@ -157,7 +157,7 @@
 
     .tecnologias__div--seccion-iconos {
         /*posicion y layout*/
-        width: 70%;
+        width: 60%;
         justify-content: center;
         align-items: center;
     

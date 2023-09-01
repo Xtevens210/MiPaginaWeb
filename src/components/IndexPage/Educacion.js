@@ -10,6 +10,9 @@ export default function Educacion() {
                     <li>
                         Universidad Pontificia Bolivariana: Mision TIC 2022
                     </li>
+                    <li>
+                        Diferentes cursos en plataformas como Udemy y Platzi
+                    </li>
                 </ul>
             </div>
         </div>

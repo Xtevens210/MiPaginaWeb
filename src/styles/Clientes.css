@@ -1,0 +1,103 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+
+
+.clientes__seccion {
+    /*posicion y layout*/
+    width: 90%;
+    /*modelo de caja*/
+    margin: 100px auto;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.clientes__h2--clientes {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    /*visual*/
+    color: #D7D7D7;
+
+    /*misc*/
+
+}
+
+.clientes__span--tarjeta {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    border-radius: 40px;
+    margin: 30px auto;
+    /*tipografia*/
+    /*visual*/
+    background-color: rgb(51, 51, 51);
+    border: 1px #0FF solid;
+    /*misc*/
+}
+
+.clientes__div--img {
+    /*posicion y layout*/
+    width: 100px;
+    /*modelo de caja*/
+    margin: 10px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+
+@media screen and (min-width: 600px) {
+    .clientes__h2--clientes{
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 26px;
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .clientes__h2--clientes {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 28px;
+        /*misc*/
+    }
+}
+
+
+@media screen and (min-width: 970px) {
+    .clientes__h2--clientes {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 30px;
+        /*misc*/
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .clientes__seccion  {
+    /*posicion y layout*/
+    width: 60%;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+    }
+}

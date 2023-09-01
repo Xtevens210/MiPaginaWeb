@@ -1,0 +1,93 @@
+
+
+.tarjeta-portafolio__div--container {
+    /*posicion y layout*/
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    margin: 10px 0;
+    border-radius: 23px;
+    /*tipografia*/
+    /*visual*/
+    background-color: #202020;
+    border: 1px solid #0FF;
+    /*misc*/
+}
+
+.tarjeta-portafolio__div--container img {
+    /*posicion y layout*/
+    width: 80%;
+    /*modelo de caja*/
+    border-radius: 40px;
+    padding: 30px 25px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.tarjeta-portafolio__div--container p {
+    /*posicion y layout*/
+    position: absolute;
+    bottom: 20px;
+    /*modelo de caja*/
+    padding: 5px 10px;
+    border-radius: 30px;
+    /*tipografia*/
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*visual*/
+    background-color: #202020;
+    border: 1px solid #0FF;
+    color: #8F8F8F;
+    /*misc*/
+}
+
+
+@media screen and (min-width: 600px) {
+    .tarjeta-portafolio__div--container {
+        /*posicion y layout*/
+        width: 500px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .tarjeta-portafolio__div--container {
+        /*posicion y layout*/
+        width: 100%;
+        /*modelo de caja*/
+        margin: 30px 0;
+        /*tipografia*/
+        /*visual*/
+        border: 2px solid #0FF;
+        /*misc*/
+    }
+
+    .tarjeta-portafolio__div--container img {
+        /*posicion y layout*/
+        width: 85%;
+        /*modelo de caja*/
+        border-radius: 50px;
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+
+    .tarjeta-portafolio__div--container p {
+        /*posicion y layout*/
+        /*modelo de caja*/
+        /*tipografia*/
+        font-size: 17px;
+        /*visual*/
+        /*misc*/
+    }
+}

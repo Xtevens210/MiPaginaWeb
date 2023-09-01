@@ -10,7 +10,7 @@ export default function Contacto() {
                     <li>Steven Sańchez López</li>
                     <li>Naci en Medellín, Colombia</li>
                     <li>Vivo en Medellín, Colombia</li>
-                    <li>stevens210@hotmail.es</li>
+                    <li>stevendevofi@gmail.com</li>
                     <li>+57 3007162596</li>
                 </ul>
             </div>

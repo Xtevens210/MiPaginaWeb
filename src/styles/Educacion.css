@@ -11,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
@@ -41,7 +40,7 @@
     line-height: 34px;
 
     /*visual*/
-    color: rgb(73, 73, 73);
+    color: #D7D7D7;
 
     /*misc*/
 }
@@ -56,6 +55,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    color: #8F8F8F;
 
     /*visual*/
     /*misc*/
@@ -122,7 +122,7 @@
         /*posicion y layout*/
         /*modelo de caja*/
         /*tipografia*/
-        font-size: 23px;
+        font-size: 20px;
 
         /*visual*/
         /*misc*/
@@ -133,7 +133,7 @@
 @media screen and (min-width: 1280px) {
     .educacion__div--seccion-educacion {
         /*posicion y layout*/
-        width: 70%;
+        width: 60%;
         /*modelo de caja*/
         /*tipografia*/
         /*visual*/

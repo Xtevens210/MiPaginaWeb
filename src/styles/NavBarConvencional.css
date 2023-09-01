@@ -15,7 +15,7 @@
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
-    background-color: rgb(255, 255, 255);
+    background-color: #323232;
     /*misc*/
 }
 
@@ -34,6 +34,7 @@
     line-height: 56px;
 
     /*visual*/
+    color: #dbdbdb;
     /* background-color: blueviolet; */
 
     /*misc*/
@@ -67,7 +68,7 @@
 
 }
 
-.nav-bar-convencional__div--accesos a {
+.nav-bar-convencional__div--accesos .nav-bar-convencional__Link {
     /*posicion y layout*/
 
     /*modelo de caja*/
@@ -81,24 +82,25 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: rgba(73, 73, 73, 1);
+    color: #D7D7D7;
 
     /*visual*/
     border-radius: 7px;
     /* background-color: coral; */
     text-decoration: none;
-    border: 1px solid rgba(73, 73, 73, 1);
-
+    border: 1px solid #0FF;
     /*misc*/
+    transition: ease-in-out 0.5s;
 
 }
 
-.nav-bar-convencional__div--accesos a:hover {
+.nav-bar-convencional__div--accesos .nav-bar-convencional__Link:hover {
     /*posicion y layout*/
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
-    background-color:  #EEEEEE;
+    background-color:  #0FF;
+    color: #323232;
     /*misc*/
 
 }

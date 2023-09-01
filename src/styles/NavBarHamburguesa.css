@@ -16,7 +16,7 @@
     /*tipografia*/
     text-align: center;
     /*visual*/
-    background-color: rgb(255, 255, 255);
+    background-color: #323232;
 
     /*misc*/
 }
@@ -53,6 +53,7 @@
 
     /*visual*/
     /* background-color: blueviolet; */
+    color: #D7D7D7;
 
     /*misc*/
 }
@@ -72,12 +73,11 @@
 .hamburguesa__img--hamburguesa {
     /*posicion y layout*/
     width: 40px;
-
-
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
     /*misc*/
+    transition: ease-in-out 0.5s;
 
 }
 
@@ -90,9 +90,59 @@
     bottom: 0;
     margin: auto;
     z-index: -1;
-
     /*modelo de caja*/
     /*tipografia*/
     /*visual*/
+    /*misc*/
+}
+
+
+
+.hamburguesa__div--container-opciones {
+    width: 0%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.593);
+    transition: ease-in-out 0.5s;
+}
+
+
+.hamburguesa__div--panel-opciones {
+    /*posicion y layout*/
+    width: 500px;
+    height: 100vh;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #202020;
+    /*misc*/
+    transition: ease-in-out 0.5s;
+}
+
+
+.hamburguesa__div--opciones-lista {
+    /*posicion y layout*/
+    width: 100%;
+    position: relative;
+    top: 100px;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    overflow: hidden;
+    /*misc*/
+}
+
+.hamburguesa__div--opciones-lista button {
+    /*posicion y layout*/
+    width: 100%;
+    height: 50px;
+    /*modelo de caja*/
+    border: none;
+    border-bottom: 2px solid #0FF;
+    /*tipografia*/
+    font-family: 'Kanit', sans-serif;
+    /*visual*/
+    background-color: transparent;
+    color: #0FF;
+    overflow: hidden;
     /*misc*/
 }
