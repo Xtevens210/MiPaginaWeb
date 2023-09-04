@@ -3,7 +3,7 @@
 .tarjeta-portafolio__div--container {
     /*posicion y layout*/
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 500px;
     /*modelo de caja*/
     margin: 30px auto;
@@ -110,7 +110,7 @@
 @media screen and (min-width: 350px) {
     .tarjeta-portafolio__div--container {
         /*posicion y layout*/
-        height: 600px;
+        height: 495px;
         /*modelo de caja*/
         /*tipografia*/
         /*visual*/
