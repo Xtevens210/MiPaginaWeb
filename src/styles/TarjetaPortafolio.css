@@ -4,50 +4,119 @@
     /*posicion y layout*/
     position: relative;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 500px;
     /*modelo de caja*/
-    margin: 10px 0;
+    margin: 30px auto;
     border-radius: 23px;
     /*tipografia*/
     /*visual*/
-    background-color: #202020;
-    border: 1px solid #0FF;
+    background-color: #323232;
     /*misc*/
+    -webkit-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 10px -4px rgba(0,0,0,0.75);
 }
 
 .tarjeta-portafolio__div--container img {
     /*posicion y layout*/
-    width: 80%;
+    width: 100%;
     /*modelo de caja*/
-    border-radius: 40px;
-    padding: 30px 25px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
     /*tipografia*/
     /*visual*/
     /*misc*/
 }
 
-.tarjeta-portafolio__div--container p {
+.tarjeta-portafolio__div--info {
     /*posicion y layout*/
-    position: absolute;
-    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     /*modelo de caja*/
-    padding: 5px 10px;
-    border-radius: 30px;
     /*tipografia*/
     font-family: 'Kanit', sans-serif;
-    font-size: 13px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     /*visual*/
-    background-color: #202020;
-    border: 1px solid #0FF;
     color: #8F8F8F;
     /*misc*/
 }
 
+.tarjeta-portafolio__div--info h4 {
+    /*posicion y layout*/
+    width: 90%;
+    /*modelo de caja*/
+    margin: 10px auto;
+    /*tipografia*/
+    font-size: 20px;
+    text-align: center;
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}
+
+.tarjeta-portafolio__div--info p {
+    /*posicion y layout*/
+    width: 90%;
+    /*modelo de caja*/
+    /*tipografia*/
+    text-align: center;
+    font-size: 18px;
+    /*visual*/
+    /*misc*/
+}
+
+.tarjeta-portafolio__div--container button {
+    /*posicion y layout*/
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*modelo de caja*/
+    margin: auto;
+    padding: 15px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    /*tipografia*/
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*visual*/
+    color: #393939;
+    background-color: #0FF;
+    border: none;
+    /*misc*/
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.tarjeta-portafolio__div--container button:hover {
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #8F8F8F;
+    color: #D7D7D7;
+    /*misc*/
+}
+
+@media screen and (min-width: 350px) {
+    .tarjeta-portafolio__div--container {
+        /*posicion y layout*/
+        height: 600px;
+        /*modelo de caja*/
+        /*tipografia*/
+        /*visual*/
+        /*misc*/
+    }
+}
 
 @media screen and (min-width: 600px) {
     .tarjeta-portafolio__div--container {
@@ -60,34 +129,62 @@
     }
 }
 
+
+
 @media screen and (min-width: 1000px) {
     .tarjeta-portafolio__div--container {
         /*posicion y layout*/
-        width: 100%;
+        width: 90%;
+        height: 500px;
         /*modelo de caja*/
-        margin: 30px 0;
         /*tipografia*/
         /*visual*/
-        border: 2px solid #0FF;
         /*misc*/
     }
+}
 
-    .tarjeta-portafolio__div--container img {
-        /*posicion y layout*/
-        width: 85%;
-        /*modelo de caja*/
-        border-radius: 50px;
-        /*tipografia*/
-        /*visual*/
-        /*misc*/
-    }
 
-    .tarjeta-portafolio__div--container p {
-        /*posicion y layout*/
-        /*modelo de caja*/
-        /*tipografia*/
-        font-size: 17px;
-        /*visual*/
-        /*misc*/
-    }
+
+
+/* Estilos de notificacion de progreso */
+
+.en-proceso__div--container {
+    /*posicion y layout*/
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.en-proceso__div--tarjeta {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    background-color: #393939;
+    /*misc*/
+}
+
+.en-proceso__div--tarjeta button{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+
+.en-proceso__div--tarjeta p{
+    /*posicion y layout*/
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
 }

@@ -1,0 +1,62 @@
+/*posicion y layout*/
+/*modelo de caja*/
+/*tipografia*/
+/*visual*/
+/*misc*/
+
+.logo-cliente__div--container {
+    /*posicion y layout*/
+    width: 120px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+
+.logo-cliente__div--container img {
+    /*posicion y layout*/
+    width: 100%;
+    /*modelo de caja*/
+    margin: 10px;
+    /*tipografia*/
+    /*visual*/
+    /*misc*/
+}
+
+.logo-cliente__div--container p {
+    /*posicion y layout*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    /*modelo de caja*/
+    /*tipografia*/
+    font-family: 'Bakbak One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    /*visual*/
+    color: #d7d7d700;
+    /*misc*/
+    transition: all 0.5s;
+}
+
+.logo-cliente__div--container:hover  p {
+    /*posicion y layout*/
+    bottom: 0;
+    /*modelo de caja*/
+    /*tipografia*/
+    /*visual*/
+    color: #D7D7D7;
+    /*misc*/
+}

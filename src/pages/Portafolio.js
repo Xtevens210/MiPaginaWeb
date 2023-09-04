@@ -37,10 +37,10 @@ const Portafolio = () => {
         <div className='portafolio__div--portafolio-container'>
             <h4 className='portafolio__h4--portafolio'>Bienvenido a mi portafolio</h4>
             <div className='portafolio__div--tarjetas-portafolio'>
-                <TarjetaPortafolio img={gusanitosEscaleras} nombre="Juego de escalera con administrador"/>
-                <TarjetaPortafolio img={saludOral} nombre="Aplicación interactiva sobre la salud oral"/>
-                <TarjetaPortafolio img={catalogo} nombre="Catálogo de productos "/>
-                <TarjetaPortafolio img={juegoLetras} nombre="Aplicación interactiva de abecedario "/>
+                <TarjetaPortafolio img={gusanitosEscaleras} nombre="Juego de escalera con administrador" descripcion="Juego interactivo con preguntas, puntajes que recopila la informacion obtenida para investigacion."/>
+                <TarjetaPortafolio img={saludOral} nombre="Aplicación interactiva sobre la salud oral" descripcion="Aplicacion interactiva para aprender acerca de la salud bucal donde tendras que deja la boca los mas saludable posible."/>
+                <TarjetaPortafolio img={catalogo} nombre="Catálogo de productos" descripcion="Catalogo de productos que muestra de manera optima y facil de navegar por toda la gama de productos."/>
+                <TarjetaPortafolio img={juegoLetras} nombre="Aplicación interactiva de abecedario" descripcion="Aplicacion interactiva para niños que sirve para aprender acerca del abecedario ofreciendo contenido musical y accesos a diferentes recursos infantiles."/>
             </div>
         </div>
         </div>

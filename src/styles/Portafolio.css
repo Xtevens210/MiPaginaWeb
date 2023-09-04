@@ -171,6 +171,7 @@
     /*misc*/
 }
 
+
 @media screen and (min-width: 600px) {
     .portafolio__div--container {
         /*posicion y layout*/
@@ -194,7 +195,7 @@
 @media screen and (min-width: 1000px) {
     .portafolio__div--container {
         /*posicion y layout*/
-        height: 2500px;
+        height: 1800px;
         /*modelo de caja*/
         /*tipografia*/
         /*visual*/
@@ -213,7 +214,7 @@
 
     .portafolio__div--tarjetas-portafolio {
         /*posicion y layout*/
-        width: 90%;
+        width: 60%;
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;

@@ -9,7 +9,7 @@ import Educacion from "./Educacion";
 import Habilidades from "./Habilidades";
 import Servicios from "./Servicios";
 import Tecnologias from "./Tecnologias/Tecnologias";
-import Clientes from "./Clientes";
+import Clientes from "./Clientes/Clientes";
 import Footer from "./Footer";
 
 

@@ -48,16 +48,6 @@
     /*misc*/
 }
 
-.clientes__div--img {
-    /*posicion y layout*/
-    width: 100px;
-    /*modelo de caja*/
-    margin: 10px;
-    /*tipografia*/
-    /*visual*/
-    /*misc*/
-}
-
 
 @media screen and (min-width: 600px) {
     .clientes__h2--clientes{
